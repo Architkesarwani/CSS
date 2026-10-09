@@ -1,0 +1,48 @@
+/* Box Model Styles */
+
+/* 1. Height */
+
+div {
+    height: 100px;
+    width: 100px;
+}
+
+/* 2. Width */
+
+h1 {
+    height: 100px;
+    width: 140px;
+}
+
+/* 3. Height */
+
+div {
+    background-color: rgb(13, 116, 241);
+    height: 100px;
+}
+
+/* 4. Border */
+div {
+background-color: rgb(13, 116, 241);
+    height: 100px;
+     border-width: 5px;
+    border-style: solid;
+    border-color: rgb(241, 13, 13);
+    /* text-aline:right; */
+}
+
+h1 {
+    /* border-width: 5px;
+    border-style: solid;   
+    border-color: rgb(13, 241, 13);  */
+    text-align: center;                    /* jitne bhi humne border ki widht and height diya hai uske center me text aline hoga */
+border: 3px solid rgb(241, 13, 142);    /* Shorthand property for border */
+}
+
+/* Border radius */
+
+div {
+    border-radius: 10px;   /* border ke corner ko round karne ke liye */
+    border-radius: 50%;   /* cicle banane ke liye */
+
+}

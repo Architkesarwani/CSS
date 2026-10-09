@@ -1,0 +1,23 @@
+/* Padding Styles */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(13, 116, 241);
+    border-style: solid;
+    border: 5px red solid;
+    border-radius: 10px;
+    /* padding ke andar ka space */
+    /*
+    padding-left: 25px;
+     padding-right:25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+     */
+
+     /* 
+     padding: 25px;   
+    /* shorthand property for padding */
+
+    padding: 25px 50px 75px 100px;   /* top,right,bottom,left */
+}
