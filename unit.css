@@ -1,0 +1,27 @@
+/* units */
+
+/* 1. Absolute */
+
+#one {
+    font-size:15px;
+}
+
+#two {
+    font-size:25px;
+}
+
+#three {
+    font-size:35px;
+}
+
+/* 2. line height */
+
+#four {
+    line-height:25px;
+}
+
+/* 3. text transform */
+
+#four {
+    text-transform:uppercase ;
+}

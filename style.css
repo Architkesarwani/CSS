@@ -1,0 +1,59 @@
+
+h1 {
+    color:tomato;
+}
+
+p{
+    color:yellow;
+}
+
+p2{
+    color:rgb(255,0,10);
+}
+
+button {
+    color:white;
+    background-color:rgb(200,100,50);
+}
+
+body {
+    background-color:#051d1e;
+}
+
+
+
+/*  UNIVERSAL SELECTOR */
+
+* {
+    color:red;
+}
+
+/* ELEMENT SELECTORS */
+
+h1{
+    color:green;
+}
+
+/* ID SELECTOR */
+
+#headingOne {
+    color:pink;
+}
+
+#headingTwo {
+    color:red;
+}
+
+#headingThree{
+    color:chocolate;
+}
+
+/* CLASS SELECTOR */
+
+.myClass {
+    color:blueviolet;
+}
+
+.yes {
+    color:aqua;
+}
