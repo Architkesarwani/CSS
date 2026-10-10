@@ -1,0 +1,76 @@
+/* Units in CSS */
+
+/* 1. percent (%) */
+
+/* 
+#Box1 {
+    height:100px;
+    width:200px;
+    background-color:blue;
+}
+
+#Box2 {
+    height:50px;
+    width:30%;
+    margin-left:20%;
+    background-color:red;
+} 
+*/
+
+/* 2. em */
+/* 
+#Box1 {     
+    height:100px;
+    width:200px;
+    background-color:blue;
+    font-size: 10px;
+}
+
+#Box2 {
+    height:50px;
+    width:30%;
+    margin-left:20%;
+    background-color:red;
+    font-size: 2em;                 /* 2em = 20px 
+    width: 5em;                    /* 5em = 50px 
+} 
+*/
+
+/* 3. rem */
+
+/* 
+#Box1 {     
+    height:100px;
+    width:200px;
+    background-color:blue;
+    font-size: 10px;
+}
+
+#Box2 {
+    height:50px;
+    width:30%;
+    margin-left:20%;
+    background-color:red;
+    font-size: 2em;                 
+    width: 5rem; 
+}     
+*/
+
+/* 4. vh & vw */
+
+#Box1 {     
+    height:100px;
+    width:200px;
+    background-color:blue;
+    font-size: 10px;
+}
+
+#Box2 {
+    height:50px;
+    width:30%;
+    margin-left:20%;
+    background-color:red;
+    font-size: 2em;                 
+    width: 5rem;
+    height: 80vh;                 /* 80% of viewport height */ 
+}     
