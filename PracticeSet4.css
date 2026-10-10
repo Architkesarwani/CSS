@@ -1,0 +1,47 @@
+/* Q1. */
+
+.contentBox {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#content {
+    height:580px;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+
+}
+
+#navbar {
+    height: 50px;
+    background-color: #0f1111;
+}
+
+button{
+    background-color:#f08804;
+}
+
+#logo {
+    color:#f08804;
+    font-size: 25px;
+}
+
+a {
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #0f1111;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+

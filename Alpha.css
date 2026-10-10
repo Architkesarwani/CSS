@@ -1,0 +1,23 @@
+/* Alpha (RGBA) ye background color ko bright and dark karta hai */
+
+
+div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding:25px;
+    display:inline-block;
+   
+}
+
+#box1{
+    background-color:rgba(190,20,50,0.4);
+}
+
+#box2 {
+    background-color:rgba(20,190,50,0.4);
+}
+
+#box3 {
+    background-color:rgba(50,20,190,0.4);
+}
