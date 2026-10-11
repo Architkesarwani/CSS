@@ -1,0 +1,33 @@
+/* Q1. */
+
+ul {
+    background-color: pink;
+    color:black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style-type: none;
+    background-color: aqua;
+    background-color: yellow;
+}
+
+/* Q2. use flexbox to center one div inside another div*/
+
+.outer {
+    height: 400px;
+    width:400px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    height: 100px;
+    width:100px;
+    background-color: yellowgreen;
+}
+
+/* Q3, which has higher priority - align-item or align-self? */

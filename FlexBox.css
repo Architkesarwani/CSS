@@ -1,0 +1,79 @@
+
+/* Flexbox */
+
+
+div {
+    height:50px;
+    width:150px;
+    display:inline-block;
+    border:2px solid black;
+}
+
+/*  flex directions 
+
+    #container {
+    width: 800px;
+    height:400px;
+    display: flex;
+    /* flex-direction:row;  */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse;  
+    }  
+*/
+
+
+/* Flex properties */
+
+/* 1. justify-content 
+
+#container {
+    width: 500px;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: row; */
+    /* justify-content:flex-start; */
+    /* justify-content:flex-end; */
+    /* justify-content:center; */
+    /* justify-content:space-around; 
+    justify-content:space-between;
+} 
+    */
+
+#container {
+    width: 500px;
+    height:500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center /* align-item,*/;
+    align-content: center /* flex-start,flex-end*/;
+
+
+}
+
+#box1 {
+    background-color: aqua;
+}
+
+#box2 {
+    height: 200px;
+    background-color: greenyellow;
+}
+
+#box3 {
+    
+    background-color: red;
+}
+
+#box4 {
+    background-color: navy;
+}
+
+#box5 {
+    background-color: pink;
+}
+
+
