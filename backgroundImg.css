@@ -1,0 +1,29 @@
+/* background image and size */
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display:inline-block;
+}
+
+/* background-size: cover */
+
+#Box2 {
+    background-image: url("fox_pic.jpg");
+    background-size: cover;
+}
+
+/* background-size: contain */
+
+#Box3 {
+    background-image: url("fox_pic.jpg");
+    background-size: contain;
+}
+
+/* background-size: auto */
+
+#Box4 {
+    background-image: url("fox_pic.jpg");
+    background-size: auto;
+}

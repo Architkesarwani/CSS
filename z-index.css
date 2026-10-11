@@ -1,0 +1,44 @@
+/* z-index */
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display:inline-block;
+}
+
+#Box1 {
+    position: static;
+    top:50px;
+
+}
+
+#Box2 {
+    position : relative;
+    top : 20px;
+    left: 10px;
+    
+}
+
+#Box4 {
+    position:fixed;
+    right:10px;
+    bottom:0px;
+    width:100%;
+} 
+    
+
+/* #Box3 {
+    position:sticky;
+    top:0%;
+
+} */
+
+#Box3 {
+    position:absolute;
+    top:500px;
+    left:20px;
+}
+
+
