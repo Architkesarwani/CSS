@@ -1,0 +1,33 @@
+/* Transitions */
+
+/*
+1. transiton-property
+2. transition-duration
+3. transition-timing-function
+4. transition-delay
+*/
+
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border:2px solid black;
+    color: white;
+    /* transition-property: all ;
+    transition-duration: 2s;
+    transition-timing-function: steps(3);
+    transition-delay:2s; */
+    transition: all 2s ease-in 1s;
+}
+
+div:hover {
+    background-color: blue;
+    color: black;
+    font-size: 20px;
+}
+
+div:active {
+    background-color: yellow;
+    
+}

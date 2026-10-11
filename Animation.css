@@ -1,0 +1,62 @@
+/* Animation properties
+1. animation-name
+2. animation-duration
+3. animation-timing-function
+4. animation-delay
+5. animation-iteration-count
+6. animation-direction (normal,reverse,alternate,alternate-reverse)
+*/
+
+
+div { 
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border:2px solid black;
+    color: white;
+    position: absolute;
+    top:100PX;
+    left:100px;                      
+    /* animation-name:colorAnimate;
+    animation-duration:2s;
+    /* animation-timing-function:ease-in; */
+    /*animation-delay:0s;
+    animation-iteration-count:infinite;
+    border-radius: 50% */
+    animation: colorAnimate 2s ease-in 0s infinite normal;
+
+
+}
+
+/* @keyframes colorAnimate {
+    from {
+        left: 0px;
+        background-color: yellow;
+    }
+    to {
+        left: 200px;
+        background-color: red;}   
+    } */
+
+/* div:hover {
+   } */
+
+
+
+/* % in Animation */
+
+@keyframes colorAnimate {
+    0% {
+        left: 0px;
+        background-color: yellow;
+    }
+    50% {
+        background-color: green;
+    }
+    100% {
+        left: 200px;
+        background-color: red;}   
+    }
+
+
+
